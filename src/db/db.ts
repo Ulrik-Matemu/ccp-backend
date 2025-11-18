@@ -3,7 +3,6 @@ import dotenv from 'dotenv';
 const { Pool } = pkg;
 dotenv.config();
 
-
 const pool = new Pool({
     user: process.env.DATABASE_USER,
     host: process.env.DATABASE_HOST,

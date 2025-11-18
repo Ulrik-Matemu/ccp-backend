@@ -20,6 +20,9 @@ build/
 tmp/
 temp/
 
+# Password hash files
+src/db/passwordHash.js
+
 # Environment variables
 .env
 .env.local
