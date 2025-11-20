@@ -42,3 +42,7 @@ coverage/
 
 # Misc
 *.tgz
+
+# db Schema files
+src/db/schema.sql
+src/db/dump.sql
